@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="7" out_port_id="7"/>
+		<IR id="8" name="Conv_0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="11" out_port_id="11"/>
+		<IR id="18" name="Conv_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv1.weight" out_port_id="conv1.weight"/>
+		<IR id="5" name="conv1.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv3.weight" out_port_id="conv3.weight"/>
+		<IR id="15" name="conv3.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="10" out_port_id="10"/>
+		<IR id="14" name="Relu_3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="8" out_port_id="8"/>
+		<IR id="9" name="Relu_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="12" out_port_id="12"/>
+		<IR id="19" name="12" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="9" out_port_id="9"/>
+		<IR id="13" name="Conv_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="input.1" out_port_id="input.1"/>
+		<IR id="4" name="input.1/mean_value/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2.weight" out_port_id="conv2.weight"/>
+		<IR id="10" name="conv2.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+</mapping>
